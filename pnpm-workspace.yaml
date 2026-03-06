@@ -1,0 +1,9 @@
+ignoredBuiltDependencies:
+  - core-js
+
+onlyBuiltDependencies:
+  - better-sqlite3
+  - onnxruntime-node
+  - protobufjs
+  - sharp
+  - sqlite3
