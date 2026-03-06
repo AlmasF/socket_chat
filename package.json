@@ -1,0 +1,28 @@
+{
+  "name": "chat_with_analyzer",
+  "version": "1.0.0",
+  "description": "Simple Socket.io webchat, which has included analyzer of the message content received by the end",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prettier": "node prettier . --write"
+  },
+  "keywords": [
+    "Messenger",
+    "socket.io",
+    "spam",
+    "detector"
+  ],
+  "author": "Almas Abdugaliyev",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/cluster-adapter": "^0.3.0",
+    "express": "^4.22.1",
+    "socket.io": "^4.8.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}
